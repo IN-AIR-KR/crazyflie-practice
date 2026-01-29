@@ -1,3 +1,9 @@
+# P2P with PC
+
+P2P로 드론에서 디버그 메시지를 출력하고, 이를 PC cfclient 콘솔에서 확인하는 에제입니다.
+
+## 설정 및 실행
+
 1. `examples/app_peer_to_peer/src/peer_to_peer.c` 파일 넣기
 
    ```c
