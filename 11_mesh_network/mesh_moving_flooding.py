@@ -108,7 +108,7 @@ class Drone:
     def get_packets_to_forward(self):
         """전송할 패킷 리스트 반환 및 버퍼 비우기"""
         packets = self.packet_buffer.copy()
-        # self.packet_buffer = []
+        self.packet_buffer = []
         return packets
 
 
@@ -162,18 +162,17 @@ def update(frame):
     # 모든 드론이 패킷 전파
     for idx, drone in enumerate(drones):
         packets_to_send = drone.get_packets_to_forward()
-        # print(f"Drone {drone.id} has {len(packets_to_send)} packet(s) to forward.")
         if not packets_to_send:
             continue
 
         # 통신 범위 내 이웃 찾기
         neighbors = tree.query_ball_point(positions[idx], COMM_RANGE)
-        # print(f"Drone {drone.id} has {len(packets_to_send)} packet(s) to send to neighbors: {neighbors}")
+
         # 각 이웃에게 패킷 전송
         for n_idx in neighbors:
             if n_idx == idx:  # 자기 자신 제외
                 continue
-            # print(f"Drone {drone.id} -> Drone {drones[n_idx].id} | Packets: {len(packets_to_send)}")
+
             for packet in packets_to_send:
                 # if np.random.rand() < COMM_SUCCESS_RATE:  # 통신 성공 여부 결정
                 #     drones[n_idx].receive_packet(packet)
