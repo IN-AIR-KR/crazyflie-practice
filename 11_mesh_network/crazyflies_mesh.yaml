@@ -1,0 +1,439 @@
+# Crazyflies configuration for 3D Mesh Network Simulation
+# 80 drones arranged in 8x10 grid (x: 0.5~7.5m, y: 0.5~9.5m, z: 0.0m)
+# Simulation cube: 10m x 10m x 5m
+
+robots:
+  cf1:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E701
+    initial_position: [0.5, 0.5, 0.0]
+    type: cf21
+  cf2:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E702
+    initial_position: [1.5, 0.5, 0.0]
+    type: cf21
+  cf3:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E703
+    initial_position: [2.5, 0.5, 0.0]
+    type: cf21
+  cf4:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E704
+    initial_position: [3.5, 0.5, 0.0]
+    type: cf21
+  cf5:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E705
+    initial_position: [4.5, 0.5, 0.0]
+    type: cf21
+  cf6:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E706
+    initial_position: [5.5, 0.5, 0.0]
+    type: cf21
+  cf7:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E707
+    initial_position: [6.5, 0.5, 0.0]
+    type: cf21
+  cf8:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E708
+    initial_position: [7.5, 0.5, 0.0]
+    type: cf21
+  cf9:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E709
+    initial_position: [0.5, 1.5, 0.0]
+    type: cf21
+  cf10:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E70A
+    initial_position: [1.5, 1.5, 0.0]
+    type: cf21
+  cf11:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E70B
+    initial_position: [2.5, 1.5, 0.0]
+    type: cf21
+  cf12:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E70C
+    initial_position: [3.5, 1.5, 0.0]
+    type: cf21
+  cf13:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E70D
+    initial_position: [4.5, 1.5, 0.0]
+    type: cf21
+  cf14:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E70E
+    initial_position: [5.5, 1.5, 0.0]
+    type: cf21
+  cf15:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E70F
+    initial_position: [6.5, 1.5, 0.0]
+    type: cf21
+  cf16:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E710
+    initial_position: [7.5, 1.5, 0.0]
+    type: cf21
+  cf17:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E711
+    initial_position: [0.5, 2.5, 0.0]
+    type: cf21
+  cf18:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E712
+    initial_position: [1.5, 2.5, 0.0]
+    type: cf21
+  cf19:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E713
+    initial_position: [2.5, 2.5, 0.0]
+    type: cf21
+  cf20:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E714
+    initial_position: [3.5, 2.5, 0.0]
+    type: cf21
+  cf21:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E715
+    initial_position: [4.5, 2.5, 0.0]
+    type: cf21
+  cf22:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E716
+    initial_position: [5.5, 2.5, 0.0]
+    type: cf21
+  cf23:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E717
+    initial_position: [6.5, 2.5, 0.0]
+    type: cf21
+  cf24:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E718
+    initial_position: [7.5, 2.5, 0.0]
+    type: cf21
+  cf25:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E719
+    initial_position: [0.5, 3.5, 0.0]
+    type: cf21
+  cf26:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E71A
+    initial_position: [1.5, 3.5, 0.0]
+    type: cf21
+  cf27:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E71B
+    initial_position: [2.5, 3.5, 0.0]
+    type: cf21
+  cf28:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E71C
+    initial_position: [3.5, 3.5, 0.0]
+    type: cf21
+  cf29:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E71D
+    initial_position: [4.5, 3.5, 0.0]
+    type: cf21
+  cf30:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E71E
+    initial_position: [5.5, 3.5, 0.0]
+    type: cf21
+  cf31:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E71F
+    initial_position: [6.5, 3.5, 0.0]
+    type: cf21
+  cf32:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E720
+    initial_position: [7.5, 3.5, 0.0]
+    type: cf21
+  cf33:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E721
+    initial_position: [0.5, 4.5, 0.0]
+    type: cf21
+  cf34:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E722
+    initial_position: [1.5, 4.5, 0.0]
+    type: cf21
+  cf35:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E723
+    initial_position: [2.5, 4.5, 0.0]
+    type: cf21
+  cf36:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E724
+    initial_position: [3.5, 4.5, 0.0]
+    type: cf21
+  cf37:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E725
+    initial_position: [4.5, 4.5, 0.0]
+    type: cf21
+  cf38:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E726
+    initial_position: [5.5, 4.5, 0.0]
+    type: cf21
+  cf39:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E727
+    initial_position: [6.5, 4.5, 0.0]
+    type: cf21
+  cf40:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E728
+    initial_position: [7.5, 4.5, 0.0]
+    type: cf21
+  cf41:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E729
+    initial_position: [0.5, 5.5, 0.0]
+    type: cf21
+  cf42:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E72A
+    initial_position: [1.5, 5.5, 0.0]
+    type: cf21
+  cf43:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E72B
+    initial_position: [2.5, 5.5, 0.0]
+    type: cf21
+  cf44:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E72C
+    initial_position: [3.5, 5.5, 0.0]
+    type: cf21
+  cf45:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E72D
+    initial_position: [4.5, 5.5, 0.0]
+    type: cf21
+  cf46:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E72E
+    initial_position: [5.5, 5.5, 0.0]
+    type: cf21
+  cf47:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E72F
+    initial_position: [6.5, 5.5, 0.0]
+    type: cf21
+  cf48:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E730
+    initial_position: [7.5, 5.5, 0.0]
+    type: cf21
+  cf49:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E731
+    initial_position: [0.5, 6.5, 0.0]
+    type: cf21
+  cf50:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E732
+    initial_position: [1.5, 6.5, 0.0]
+    type: cf21
+  cf51:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E733
+    initial_position: [2.5, 6.5, 0.0]
+    type: cf21
+  cf52:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E734
+    initial_position: [3.5, 6.5, 0.0]
+    type: cf21
+  cf53:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E735
+    initial_position: [4.5, 6.5, 0.0]
+    type: cf21
+  cf54:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E736
+    initial_position: [5.5, 6.5, 0.0]
+    type: cf21
+  cf55:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E737
+    initial_position: [6.5, 6.5, 0.0]
+    type: cf21
+  cf56:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E738
+    initial_position: [7.5, 6.5, 0.0]
+    type: cf21
+  cf57:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E739
+    initial_position: [0.5, 7.5, 0.0]
+    type: cf21
+  cf58:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E73A
+    initial_position: [1.5, 7.5, 0.0]
+    type: cf21
+  cf59:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E73B
+    initial_position: [2.5, 7.5, 0.0]
+    type: cf21
+  cf60:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E73C
+    initial_position: [3.5, 7.5, 0.0]
+    type: cf21
+  cf61:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E73D
+    initial_position: [4.5, 7.5, 0.0]
+    type: cf21
+  cf62:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E73E
+    initial_position: [5.5, 7.5, 0.0]
+    type: cf21
+  cf63:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E73F
+    initial_position: [6.5, 7.5, 0.0]
+    type: cf21
+  cf64:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E740
+    initial_position: [7.5, 7.5, 0.0]
+    type: cf21
+  cf65:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E741
+    initial_position: [0.5, 8.5, 0.0]
+    type: cf21
+  cf66:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E742
+    initial_position: [1.5, 8.5, 0.0]
+    type: cf21
+  cf67:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E743
+    initial_position: [2.5, 8.5, 0.0]
+    type: cf21
+  cf68:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E744
+    initial_position: [3.5, 8.5, 0.0]
+    type: cf21
+  cf69:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E745
+    initial_position: [4.5, 8.5, 0.0]
+    type: cf21
+  cf70:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E746
+    initial_position: [5.5, 8.5, 0.0]
+    type: cf21
+  cf71:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E747
+    initial_position: [6.5, 8.5, 0.0]
+    type: cf21
+  cf72:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E748
+    initial_position: [7.5, 8.5, 0.0]
+    type: cf21
+  cf73:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E749
+    initial_position: [0.5, 9.5, 0.0]
+    type: cf21
+  cf74:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E74A
+    initial_position: [1.5, 9.5, 0.0]
+    type: cf21
+  cf75:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E74B
+    initial_position: [2.5, 9.5, 0.0]
+    type: cf21
+  cf76:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E74C
+    initial_position: [3.5, 9.5, 0.0]
+    type: cf21
+  cf77:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E74D
+    initial_position: [4.5, 9.5, 0.0]
+    type: cf21
+  cf78:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E74E
+    initial_position: [5.5, 9.5, 0.0]
+    type: cf21
+  cf79:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E74F
+    initial_position: [6.5, 9.5, 0.0]
+    type: cf21
+  cf80:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E750
+    initial_position: [7.5, 9.5, 0.0]
+    type: cf21
+
+robot_types:
+  cf21:
+    enabled: true
+    motion_capture:
+      enabled: false
+    big_quad: false
+    battery:
+      voltage_warning: 3.8
+      voltage_critical: 3.7
+
+all:
+  enabled: true
+  firmware_logging:
+    enabled: true
+    verbose: false
+    default_topics:
+      pose:
+        frequency: 10
+      status:
+        frequency: 1
+  firmware_params:
+    commander:
+      enHighLevel: 1
+    stabilizer:
+      estimator: 2 # 1: complementary, 2: kalman
+      controller: 1 # 1: PID, 2: mellinger
+    kalman:
+      resetEstimation: 1
+  reference_frame: "world"
+  broadcasts:
+    num_repeats: 15
+    delay_between_repeats_ms: 1
+
